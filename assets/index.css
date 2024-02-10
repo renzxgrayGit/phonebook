@@ -1,0 +1,61 @@
+body {
+    background-color: #0d1117; /* Night mode background color */
+    color: #fff; /* Night mode text color */
+    font-family: 'Lato', sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid #fff; /* Border color for table */
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #888; /* Border color for table cells */
+    padding: 8px;
+}
+
+th {
+    background-color: #06080a; /* Header background color */
+}
+
+tr:nth-child(even) {
+    background-color: #21262d; /* Even row background color */
+}
+
+a, input[type="submit"] {
+    background-color: #007bff; /* Blue button background color */
+    color: #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+a:hover {
+    background-color: #0056b3; /* darker blue on hover */
+}
+
+form.inline {
+    display: inline;
+}
+
+#delete-button {
+    background-color: red; /* Red button background color for delete action */
+}
+
+#delete-button:hover {
+    background-color: #7a0000; /* Red button background color for delete action */
+}
+
+/* Set height and enable scrolling */
+.table-container {
+    height: 58vh; /* 50% of the viewport height */
+    overflow-y: auto;
+}
+
+#add_contact {
+    position: relative;
+    top: 20px;
+}

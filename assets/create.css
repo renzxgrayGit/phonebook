@@ -1,0 +1,49 @@
+body {
+    background-color: #0d1117; /* Night mode background color */
+    color: #fff; /* Night mode text color */
+    font-family: 'Lato', sans-serif;
+}
+
+/* Form container */
+form {
+    margin-top: 20px;
+}
+
+/* Label styles */
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Input styles */
+input[type="text"], input[type="submit"] {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #888;
+    background-color: #21262d; /* Night mode input background color */
+    color: #fff;
+    border-radius: 3px;
+    width: 100%;
+    box-sizing: border-box; /* Ensure padding is included in the width */
+}
+
+/* Submit button style */
+input[type="submit"] {
+    background-color: #007bff; /* Blue button background color */
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3; /* darker blue on hover */
+}
+
+/* Link style */
+a {
+    color: #007bff; /* Link color */
+    text-decoration: none;
+}
+
+/* Link hover effect */
+a:hover {
+    text-decoration: underline;
+}
